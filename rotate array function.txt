@@ -1,0 +1,13 @@
+function rotate(arr,num)
+{
+// get index of an element 
+const index=arr.indexOf(num);
+
+const sliced=arr.splice(index,arr.length);
+return [...sliced,...arr];
+
+}
+
+const arr=[1,2,3,4,5,6];
+
+console.log(rotate(arr,3))

@@ -1,0 +1,13 @@
+
+.container{
+    width: 500px;
+    height: 225px;
+    background: rgba(105, 236, 45, 0.452);
+    border-radius: 10px;
+    margin: 100px auto;
+    
+}
+.btn{
+ margin-left:30% ;
+    padding-bottom: 5px;
+}
